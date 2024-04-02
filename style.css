@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #579fa0;
+    background-image: linear-gradient(135deg, #577ba0 0%, #ff3000 100%);
+    
+
+}
+.title{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.container{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius:10px ;
+    flex-direction: column;
+    background-color: grey ;
+  
+    max-height: 100vh;
+    width: 370px;
+}
+input{
+
+    color: white;
+    cursor: pointer;
+    width: 50vw;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    background: #3838385f;
+    border-radius: 8px;
+}
+button{
+    color: aliceblue;
+    background-color:cadetblue;
+    width: 10vw;
+    height: 35px;
+    font-size: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.inputs{
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+    
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.text ul{
+    margin: 10px 0px;
+    position: relative;
+    background: #6c6b6b;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(35, 35, 35);
+    padding: 10px;
+    color: aliceblue;
+
+}
+.text ul i{
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(167, 175, 181);
+}
+.img{
+    cursor: pointer;
+}
